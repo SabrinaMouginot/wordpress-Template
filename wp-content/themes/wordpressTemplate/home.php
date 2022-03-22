@@ -3,10 +3,10 @@
 get_header();
 ?>
 
-Actus
+ACTUS
 
 <?php
-// Afichage de la page actus
+// Affichage de la page actus
 
 // Les paramètres de la requête WP_QUery
 $args = array(
