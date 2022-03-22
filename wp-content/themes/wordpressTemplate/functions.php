@@ -12,7 +12,7 @@
  */
 
 // chargement de l'autoloading de composer
-require get_template_directory() . '/vendor/autoload.php';
+// require get_template_directory() . '/vendor/autoload.php';
 
 /**
  * sécurité
@@ -38,7 +38,7 @@ setlocale(LC_ALL, 'fr', 'fr_FR', 'fr_FR.utf8', 'fr_FR.ISO_8859-1');
 function my_theme_enqueue_styles()
 {
     // chargement d'un fichier CSS
-    wp_enqueue_style('my-theme-main', get_stylesheet_directory_uri() . '/css/main.css', []);
+    wp_enqueue_style('style', get_stylesheet_uri() , []);
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
 
