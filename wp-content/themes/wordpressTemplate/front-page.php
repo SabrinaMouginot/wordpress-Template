@@ -4,13 +4,15 @@ get_header();
 ?>
 
 <h1> Accueil </h1>
-<h3> <a href="<?= get_permalink(); ?>"><?php the_title(); ?>Actus </h3>
+<h3> <a href="<?= get_permalink( get_page_by_title( 'Actus' ) ); ?>">Actus </a></h3>
+<h3> <a href="<?= get_permalink(); ?>"> Nous contacter </a></h3>
 <img src="<?php echo get_template_directory_uri(); ?>/Assets/news.jpg" alt="journaux" />
 
 <h4>A LA UNE</h4>
 titre 1 <br>
 titre 2 <br>
 titre 3 <br>
+
 
 
 

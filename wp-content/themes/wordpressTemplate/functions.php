@@ -7,6 +7,7 @@
 // - contrôler les fichiers CSS et les fichiers JS que le thème va charger
 // - déclarer des fonctionnalités spéciales dans le thème
 
+
 /**
  * composer
  */
