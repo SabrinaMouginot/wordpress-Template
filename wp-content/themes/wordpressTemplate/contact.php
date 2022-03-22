@@ -4,14 +4,14 @@ get_header();
 ?>
 
 <?php
-// Affichage de la page actus
+// Affichage de la page contact
 
 // Les paramètres de la requête WP_QUery
 $args = array(
     // Sélection de pages (au lieu de posts)
     'post_type' => 'page',
     // Sélection d'une page par son slug
-    'pagename' => 'actus',
+    'pagename' => 'contact',
 );
 
 // Exécution de la requête WP_Query
