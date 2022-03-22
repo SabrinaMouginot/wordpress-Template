@@ -12,11 +12,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: wordpresstemplate
 */
 body {
-    background-color: rgb(151, 187, 255);
+    background-color: #dabe8cf3;
 }
 
 h1{
-    color: rgb(158, 92, 6);
+    color: rgb(0, 0, 0);
 }
 
 img{
