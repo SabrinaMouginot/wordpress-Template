@@ -1,7 +1,11 @@
 <?php
 
 get_header();
+?>
 
+Actus
+
+<?php
 // Afichage de la page actus
 
 // Les paramètres de la requête WP_QUery

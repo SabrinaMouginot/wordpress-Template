@@ -30,6 +30,7 @@ date_default_timezone_set('Europe/Paris');
 // choix du réglage régional
 setlocale(LC_ALL, 'fr', 'fr_FR', 'fr_FR.utf8', 'fr_FR.ISO_8859-1');
 
+
 /**
  * CSS
  */
@@ -41,6 +42,8 @@ function my_theme_enqueue_styles()
     wp_enqueue_style('style', get_stylesheet_uri() , []);
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
+
+
 
 /**
  * JS

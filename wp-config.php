@@ -87,7 +87,23 @@ $table_prefix = 'wp_';
  *
  * @link https://fr.wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
+
+ /**
+   * The base configuration for WordPress
+   * ...
+   * @package WordPress
+   */
+
+// Force l'affichage des erreurs PHP.
+@ini_set( 'display_errors', 'On' );
+// Désactive l'interception des erreurs fatales
+define( 'WP_DISABLE_FATAL_ERROR_HANDLER', true ); // 5.2 and later
+// define('WP_DEBUG', true);
+// Affiche les erreurs de Wordpress
+define( 'WP_DEBUG_DISPLAY', true );
+
+  // ** MySQL settings - You can get this info from your web host ** //
 
 /* C’est tout, ne touchez pas à ce qui suit ! Bonne publication. */
 
