@@ -1,5 +1,5 @@
 <?php
-define( 'WP_CACHE', true );
+define('WP_CACHE', true);
 /**
  * La configuration de base de votre installation WordPress.
  *
@@ -23,25 +23,25 @@ define( 'WP_CACHE', true );
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define( 'DB_NAME', 'wordpress-template' );
+define('DB_NAME', 'wordpress-template');
 
 /** Utilisateur de la base de données MySQL. */
-define( 'DB_USER', 'Sab' );
+define('DB_USER', 'Sab');
 
 /** Mot de passe de la base de données MySQL. */
-define( 'DB_PASSWORD', '6n_9Jr3wdx2@lXnn' );
+define('DB_PASSWORD', '6n_9Jr3wdx2@lXnn');
 
 /** Adresse de l’hébergement MySQL. */
-define( 'DB_HOST', 'localhost' );
+define('DB_HOST', 'localhost');
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+define('DB_CHARSET', 'utf8mb4');
 
 /**
  * Type de collation de la base de données.
  * N’y touchez que si vous savez ce que vous faites.
  */
-define( 'DB_COLLATE', '' );
+define('DB_COLLATE', '');
 
 /**#@+
  * Clés uniques d’authentification et salage.
@@ -54,14 +54,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'W24!n[|z_JbzOt(>&@l<88W, =R^mo<J+O?yI/.-O[*eD@9D.B{NrC3KiJinl=_@' );
-define( 'SECURE_AUTH_KEY',  '3vS;v|bcq$RBx+e?>GKqYf[ebaNv]Gv>t?}A.pn^^mxuQcc]jGOE:zcHrz_/aOMi' );
-define( 'LOGGED_IN_KEY',    'Zmrz~=Rb.]Q>Kd,{U;MGgiPx>_|75XK9aVb!}l}lqC#vF/1vVJOpxO86j;]NxpCP' );
-define( 'NONCE_KEY',        'khRJ:z#3P_uXvo>q8=ki`G?QsoX37)UsDX,813mviRge2>XQZ0Tc_dPT<Mn:BK_,' );
-define( 'AUTH_SALT',        ';Cxws70Y:ph.K6g:[o}.b-1U>y&w5vBfMRb.|rG8940jmM<DM)_YI`(_hJeHp<*^' );
-define( 'SECURE_AUTH_SALT', '8>Gxz:B <K!K1lF]ghn3E.;$`0(OqeQ(lTX.or%v,HVvHlFw~Oe9LMkM3+1./2pf' );
-define( 'LOGGED_IN_SALT',   'ku/lF~X()}ROWpK;GzR{kHLIyK_g+oXB~NB3QYnF5!T{)s)$EAfT[wffY5duPGXb' );
-define( 'NONCE_SALT',       'H6]#Ag613GQrg.`UNl|D~dq,EKgQl9_0VeFmw6ZZiK]cgV2Y_0G0;1$m;w%]o@Mh' );
+define('AUTH_KEY',         'W24!n[|z_JbzOt(>&@l<88W, =R^mo<J+O?yI/.-O[*eD@9D.B{NrC3KiJinl=_@');
+define('SECURE_AUTH_KEY',  '3vS;v|bcq$RBx+e?>GKqYf[ebaNv]Gv>t?}A.pn^^mxuQcc]jGOE:zcHrz_/aOMi');
+define('LOGGED_IN_KEY',    'Zmrz~=Rb.]Q>Kd,{U;MGgiPx>_|75XK9aVb!}l}lqC#vF/1vVJOpxO86j;]NxpCP');
+define('NONCE_KEY',        'khRJ:z#3P_uXvo>q8=ki`G?QsoX37)UsDX,813mviRge2>XQZ0Tc_dPT<Mn:BK_,');
+define('AUTH_SALT',        ';Cxws70Y:ph.K6g:[o}.b-1U>y&w5vBfMRb.|rG8940jmM<DM)_YI`(_hJeHp<*^');
+define('SECURE_AUTH_SALT', '8>Gxz:B <K!K1lF]ghn3E.;$`0(OqeQ(lTX.or%v,HVvHlFw~Oe9LMkM3+1./2pf');
+define('LOGGED_IN_SALT',   'ku/lF~X()}ROWpK;GzR{kHLIyK_g+oXB~NB3QYnF5!T{)s)$EAfT[wffY5duPGXb');
+define('NONCE_SALT',       'H6]#Ag613GQrg.`UNl|D~dq,EKgQl9_0VeFmw6ZZiK]cgV2Y_0G0;1$m;w%]o@Mh');
 /**#@-*/
 
 /**
@@ -87,29 +87,29 @@ $table_prefix = 'wp_';
  *
  * @link https://fr.wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', true );
+define('WP_DEBUG', true);
 
- /**
-   * The base configuration for WordPress
-   * ...
-   * @package WordPress
-   */
+/**
+ * The base configuration for WordPress
+ * ...
+ * @package WordPress
+ */
 
 // Force l'affichage des erreurs PHP.
-@ini_set( 'display_errors', 'On' );
+@ini_set('display_errors', 'On');
 // Désactive l'interception des erreurs fatales
-define( 'WP_DISABLE_FATAL_ERROR_HANDLER', true ); // 5.2 and later
+define('WP_DISABLE_FATAL_ERROR_HANDLER', true); // 5.2 and later
 // define('WP_DEBUG', true);
 // Affiche les erreurs de Wordpress
-define( 'WP_DEBUG_DISPLAY', true );
+define('WP_DEBUG_DISPLAY', true);
 
-  // ** MySQL settings - You can get this info from your web host ** //
+// ** MySQL settings - You can get this info from your web host ** //
 
 /* C’est tout, ne touchez pas à ce qui suit ! Bonne publication. */
 
 /** Chemin absolu vers le dossier de WordPress. */
-if ( ! defined( 'ABSPATH' ) )
-  define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+if (!defined('ABSPATH'))
+  define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Réglage des variables de WordPress et de ses fichiers inclus. */
-require_once( ABSPATH . 'wp-settings.php' );
+require_once(ABSPATH . 'wp-settings.php');
