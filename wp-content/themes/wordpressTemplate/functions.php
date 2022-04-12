@@ -40,7 +40,7 @@ setlocale(LC_ALL, 'fr', 'fr_FR', 'fr_FR.utf8', 'fr_FR.ISO_8859-1');
 function my_theme_enqueue_styles()
 {
     // chargement d'un fichier CSS
-    wp_enqueue_style('style', get_stylesheet_uri() , []);
+    wp_enqueue_style('style', get_stylesheet_uri(), []);
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
 
@@ -68,3 +68,4 @@ add_theme_support('html5');
 add_theme_support('title-tag');
 // activation de la fonctionnalité des vignettes
 add_theme_support('post-thumbnails');
+add_theme_support('automatic-feed-links');

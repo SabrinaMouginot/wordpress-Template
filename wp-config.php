@@ -26,10 +26,17 @@ define('WP_CACHE', true);
 define('DB_NAME', 'wordpress-template');
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'Sab');
+//define('DB_USER', 'Sab');
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', '6n_9Jr3wdx2@lXnn');
+//define('DB_PASSWORD', '6n_9Jr3wdx2@lXnn');
+
+/** Utilisateur de la base de données MySQL. */
+define('DB_USER', 'root');
+
+/** Mot de passe de la base de données MySQL. */
+define('DB_PASSWORD', '');
+
 
 /** Adresse de l’hébergement MySQL. */
 define('DB_HOST', 'localhost');
